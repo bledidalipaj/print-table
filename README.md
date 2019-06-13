@@ -1,4 +1,4 @@
-#Create print styles using CSS3 Media Queries
+# Create print styles using CSS3 Media Queries
 
 You can create print syles like this:
 
