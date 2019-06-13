@@ -1,0 +1,31 @@
+.printer-icon {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.table-container {
+  height: 580px;
+  overflow-y: scroll;
+}
+
+/* Print mode styles */
+
+@page {
+  size: landscape;
+}
+
+@media print {
+  h2,
+  p {
+    display: none;
+  }
+
+  .printer-icon {
+    display: none;
+  }
+
+  .table-container {
+    height: auto;
+    overflow: visible;
+  }
+}
